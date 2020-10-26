@@ -112,7 +112,7 @@ imageElement.attr("src", pokemon.imageUrl);
 }
 function hideModal() {
   let $modalContainer = $("#modal-container");
-  $modalContainer.removeClass("is-visable");
+  $modalContainer.removeClass("is-visible");
 }
 //   var $modalContainer = document.querySelector("#modal-container");
 //   $modalContainer.classList.remove("is-visible");
