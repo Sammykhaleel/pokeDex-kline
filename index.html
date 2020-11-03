@@ -10,8 +10,19 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
+  <!-- Navigation -->
+  <nav class="navbar navbar-light">
+    <h1>Pokedex</h1>
+  </nav>
+  <!-- navigation end -->
 
+  <input type="text" id="myInput" onkeyup="search()"placeholder="Search for names.."title="Type in a name" />
+  <div
+    id="myUL"
+    class="pokemon-list row d-flex justify-content-center flex-wrap"
+  ></div>
   <div>
     <!-- <ul class="pokemonList"></ul> -->
     <div id="modal-container"></div>
@@ -47,10 +58,7 @@
       </div>
     </div>
   </div>
-  <div class="row">
-    
-  
-  </div>
+
   <body>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
