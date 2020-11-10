@@ -19,24 +19,6 @@ body {
   /* / background-color: #eae6dd; / */
 }
 
-.my-class {
-  background-color: #4caf50; /* Green */
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  cursor: pointer;
-  background-color: white;
-  color: black;
-  border: 2px solid #4caf50;
-}
-
 .my-class:hover {
   background-color: #4caf50;
   color: white;
@@ -46,7 +28,7 @@ body {
   display: none;
 }
 
-.modal {
+/* .modal {
   margin: auto;
   display: inline-block;
   box-sizing: border-box;
@@ -56,7 +38,7 @@ body {
   max-width: 600px;
   text-align: left;
   border-radius: 10px;
-}
+} */
 
 .modal h1 {
   margin-top: 10px;
